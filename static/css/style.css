@@ -1,0 +1,57 @@
+#header {
+    font-family: "Black Han Sans", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+  }
+
+
+.feedback  {
+    overflow-y: auto;
+    margin: 0 auto;
+    width: 600px;
+    height: 500px;
+    border : 1px solid;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+#feedback-window {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#question-window {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 500px;
+    resize: none;
+    }
+
+.send_btn {
+    width: 100px;
+}
+
+
+/* 모바일용 스타일 */
+@media (max-width: 768px) {
+    .feedback {
+        width: 90%;
+        height: auto;
+    }
+}
+
+/* 태블릿용 스타일 */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .feedback {
+        width: 80%;
+    }
+}
+
