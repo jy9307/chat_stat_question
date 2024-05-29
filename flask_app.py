@@ -30,7 +30,7 @@ print(user_df)
 users = dict(zip(user_df['username'],user_df['password']))
 
 #.env로부터 API KEY 획득
-openai.api_key = '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'
+openai.api_key = ''
 
 #기본 파라미터 설정
 MODEL = 'gpt-3.5-turbo'
