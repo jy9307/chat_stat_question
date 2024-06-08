@@ -7,20 +7,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gugi&family=Black+Han+Sans&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel='stylesheet' href="/static/css/style.css">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand">AI 질문 설정 도우미</a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">요약 질문</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">비교 질문</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href='/logout'>로그 아웃</a>
+                  </li>
+                </a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
 
 </head>
 <body>
     <div id="header">
-            <p class="black-han-sans-regular">AI 질문 설정 도우미</p>
-      </div>
-    <hr style="margin: 0 auto; width: 70%">
+        <p>요약 질문</p>
+    </div>
      <div style='margin: 0 auto; overflow: auto; width: 50%;'>
         <p align='center'><b>[사용 안내]</b></p>
         1. 질문을 입력한 뒤 엔터 키를 누르거나 입력 버튼을 누르면 메시지가 서버로 전송됩니다.<br>
-        2. 대체로 10초 이내에 응답하지만 명령의 종류에 따라 오래 걸리기도 하며, 1분 30초가 넘을 경우 멈추도록 설정되어 있습니다.<br>
-        3. 응답이 없거나 오래 걸리는 경우에는 로그아웃 이후 다시 연결하시기 바랍니다.<br><br>
+        2. 대체로 10초 이내에 응답하지만 명령의 종류에 따라 오래 걸리기도 합니다.<br>
+        3. 응답이 없거나 오래 걸리는 경우에는 로그아웃 이후 다시 연결하시기 바랍니다.<br><br> 
     </div>
     <hr style="margin: 0 auto; width: 70%">
     <div id="feedback-window">
@@ -29,9 +49,6 @@
     <div id="question-window">
         <input type="text" class="input" id="messageInput" placeholder="자신이 설정한 질문을 입력하세요">
         <button id="send_btn" class="btn btn-primary">피드백 받기</button>
-    </div>
-    <div id='logout'>
-        <button id="logout_btn" class="btn btn-primary" onclick="location.href='/logout'">로그 아웃</button>
     </div>
     <script src="/static/js/script.js">
     </script>
