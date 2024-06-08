@@ -1,0 +1,817 @@
+2024-06-03 12:13:40,673 DEBUG flask_app MainThread : 고도현
+2024-06-03 12:19:51,509 DEBUG flask_app MainThread : Data committed successfully!
+2024-06-03 12:25:48,551 DEBUG flask_app MainThread : 안녕
+2024-06-03 12:25:48,554 DEBUG openai MainThread : message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-06-03 12:25:48,554 DEBUG openai MainThread : api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155"}], "temperature": 0.0}' message='Post details'
+2024-06-03 12:25:48,554 DEBUG urllib3.util.retry MainThread : Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-06-03 12:25:48,556 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.openai.com:443
+2024-06-03 12:25:49,561 DEBUG urllib3.connectionpool MainThread : https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2024-06-03 12:25:49,563 DEBUG openai MainThread : message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=684 request_id=req_1ee0e1b88e423f8ad4bcc6148a096448 response_code=200
+2024-06-03 12:25:49,568 DEBUG flask_app MainThread : ANSWER!!!
+2024-06-03 12:25:49,570 ERROR flask_app MainThread : Error committing data: NOT NULL constraint failed: ChatHistory.username
+2024-06-03 12:25:49,570 DEBUG flask_app MainThread : Data committed successfully!
+2024-06-03 12:29:39,690 DEBUG flask_app MainThread : None
+2024-06-03 12:29:41,171 DEBUG flask_app MainThread : None
+2024-06-03 12:29:41,173 DEBUG openai MainThread : message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-06-03 12:29:41,173 DEBUG openai MainThread : api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\u3143\\u3142"}], "temperature": 0.0}' message='Post details'
+2024-06-03 12:29:41,173 DEBUG urllib3.util.retry MainThread : Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-06-03 12:29:41,175 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.openai.com:443
+2024-06-03 12:29:42,280 DEBUG urllib3.connectionpool MainThread : https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2024-06-03 12:29:42,281 DEBUG openai MainThread : message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=671 request_id=req_14b69c1ad9bc2b839a66399c07dae926 response_code=200
+2024-06-03 12:29:42,283 ERROR flask_app MainThread : Error committing data: NOT NULL constraint failed: ChatHistory.username
+2024-06-03 12:29:42,283 DEBUG flask_app MainThread : Data committed successfully!
+2024-06-03 12:31:50,508 DEBUG flask_app MainThread : 유저이름 : None
+2024-06-03 12:31:52,632 DEBUG flask_app MainThread : 유저이름 : None
+2024-06-03 12:31:52,634 DEBUG openai MainThread : message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-06-03 12:31:52,634 DEBUG openai MainThread : api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\u3134\\u3147\\u3139\\u3134\\u3147"}], "temperature": 0.0}' message='Post details'
+2024-06-03 12:31:52,635 DEBUG urllib3.util.retry MainThread : Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-06-03 12:31:52,636 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.openai.com:443
+2024-06-03 12:31:53,716 DEBUG urllib3.connectionpool MainThread : https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2024-06-03 12:31:53,717 DEBUG openai MainThread : message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=804 request_id=req_c1aeccdb20ab8f5ecf9e5f681d132b8f response_code=200
+2024-06-03 12:31:53,719 ERROR flask_app MainThread : Error committing data: NOT NULL constraint failed: ChatHistory.username
+2024-06-03 12:37:20,092 DEBUG flask_app MainThread : 유저이름 : 고도현
+2024-06-03 12:37:20,105 DEBUG flask_app MainThread : 유저이름 : None
+2024-06-03 12:37:22,238 DEBUG flask_app MainThread : 유저이름 : None
+2024-06-03 12:37:22,241 DEBUG openai MainThread : message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-06-03 12:37:22,241 DEBUG openai MainThread : api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\u314e\\u3147"}], "temperature": 0.0}' message='Post details'
+2024-06-03 12:37:22,241 DEBUG urllib3.util.retry MainThread : Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-06-03 12:37:22,242 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.openai.com:443
+2024-06-03 12:37:22,890 DEBUG urllib3.connectionpool MainThread : https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2024-06-03 12:37:22,891 DEBUG openai MainThread : message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=294 request_id=req_4083cd6aad95ff0a876ebc57ab43f5ac response_code=200
+2024-06-03 12:37:22,900 ERROR flask_app MainThread : Error committing data: NOT NULL constraint failed: ChatHistory.username
+2024-06-03 12:42:16,397 DEBUG flask_app MainThread : 유저이름 : 고도현
+2024-06-03 12:42:16,414 DEBUG flask_app MainThread : 유저이름 : None
+2024-06-03 12:42:17,460 DEBUG flask_app MainThread : 유저이름 : None
+2024-06-03 12:42:17,460 DEBUG openai MainThread : message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-06-03 12:42:17,460 DEBUG openai MainThread : api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\u3147\\u3134\\u3139\\u3147\\u3134"}], "temperature": 0.0}' message='Post details'
+2024-06-03 12:42:17,461 DEBUG urllib3.util.retry MainThread : Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-06-03 12:42:17,462 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.openai.com:443
+2024-06-03 12:42:18,597 DEBUG urllib3.connectionpool MainThread : https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2024-06-03 12:42:18,599 DEBUG openai MainThread : message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=877 request_id=req_5a346fd7efadb91948e9c59806cf696a response_code=200
+2024-06-03 12:42:18,601 ERROR flask_app MainThread : Error committing data: NOT NULL constraint failed: ChatHistory.username
+2024-06-03 12:42:49,191 DEBUG flask_app MainThread : 재확인시유저이름 : None
+2024-06-03 12:42:52,707 DEBUG flask_app MainThread : 로그인시 유저이름 : 고도현
+2024-06-03 12:42:52,720 DEBUG flask_app MainThread : 재확인시유저이름 : None
+2024-06-03 12:42:55,225 DEBUG flask_app MainThread : 재확인시유저이름 : None
+2024-06-03 12:42:55,227 DEBUG openai MainThread : message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-06-03 12:42:55,227 DEBUG openai MainThread : api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155"}], "temperature": 0.0}' message='Post details'
+2024-06-03 12:42:55,227 DEBUG urllib3.util.retry MainThread : Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-06-03 12:42:55,229 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.openai.com:443
+2024-06-03 12:42:56,128 DEBUG urllib3.connectionpool MainThread : https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2024-06-03 12:42:56,130 DEBUG openai MainThread : message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=626 request_id=req_a16fb49c07b08e02d9af54ad43dab64a response_code=200
+2024-06-03 12:42:56,135 ERROR flask_app MainThread : Error committing data: NOT NULL constraint failed: ChatHistory.username
+2024-06-03 12:45:40,039 DEBUG flask_app MainThread : 로그인시 유저이름 : 고도현
+2024-06-03 12:45:40,052 DEBUG flask_app MainThread : 재확인시유저이름 : None
+2024-06-03 12:45:44,654 DEBUG flask_app MainThread : 재확인시유저이름 : None
+2024-06-03 12:45:44,656 DEBUG openai MainThread : message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-06-03 12:45:44,656 DEBUG openai MainThread : api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ubc18\\uac11\\uc2b5\\ub2c8\\ub2e4"}], "temperature": 0.0}' message='Post details'
+2024-06-03 12:45:44,657 DEBUG urllib3.util.retry MainThread : Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-06-03 12:45:44,658 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.openai.com:443
+2024-06-03 12:45:47,358 DEBUG urllib3.connectionpool MainThread : https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2024-06-03 12:45:47,359 DEBUG openai MainThread : message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2288 request_id=req_8c305907c921480bbee51e6dc0eb9097 response_code=200
+2024-06-03 12:45:47,361 ERROR flask_app MainThread : Error committing data: NOT NULL constraint failed: ChatHistory.username
+2024-06-03 12:48:41,103 DEBUG flask_app MainThread : 로그인시 유저이름 : 고도현
+2024-06-03 12:48:41,125 DEBUG flask_app MainThread : 재확인시유저이름 : None
+2024-06-03 12:48:42,952 DEBUG flask_app MainThread : 재확인시유저이름 : None
+2024-06-03 12:48:42,952 DEBUG openai MainThread : message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-06-03 12:48:42,953 DEBUG openai MainThread : api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155"}], "temperature": 0.0}' message='Post details'
+2024-06-03 12:48:44,048 DEBUG urllib3.connectionpool MainThread : https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2024-06-03 12:48:44,048 DEBUG openai MainThread : message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=696 request_id=req_17a0a853c0620b7ae2f910fc589dd4c3 response_code=200
+2024-06-03 12:48:44,050 ERROR flask_app MainThread : Error committing data: NOT NULL constraint failed: ChatHistory.username
+2024-06-03 12:51:57,300 DEBUG flask_app MainThread : 로그인시 유저이름 : 고도현
+2024-06-03 12:51:57,314 ERROR flask_app MainThread : Exception on /query [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ubuntu/chat_stat_question/flask_app.py", line 99, in query
+    name = session['username']
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/sessions.py", line 84, in __getitem__
+    return super().__getitem__(key)
+KeyError: 'username'
+2024-06-03 12:55:01,208 DEBUG openai MainThread : message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-06-03 12:55:01,209 DEBUG openai MainThread : api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ubc18\\uac00\\uc6cc\\uc694"}], "temperature": 0.0}' message='Post details'
+2024-06-03 12:55:01,210 DEBUG urllib3.util.retry MainThread : Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-06-03 12:55:01,212 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.openai.com:443
+2024-06-03 12:55:02,241 DEBUG urllib3.connectionpool MainThread : https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2024-06-03 12:55:02,242 DEBUG openai MainThread : message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=736 request_id=req_0a46b457bc0e83a45e054ce3e81a232b response_code=200
+2024-06-03 12:55:02,252 ERROR flask_app MainThread : Error committing data: NOT NULL constraint failed: ChatHistory.username
+2024-06-03 12:55:58,874 DEBUG openai MainThread : message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-06-03 12:55:58,874 DEBUG openai MainThread : api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\u3147\\u3147\\u3147"}], "temperature": 0.0}' message='Post details'
+2024-06-03 12:55:58,875 DEBUG urllib3.util.retry MainThread : Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-06-03 12:55:58,877 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.openai.com:443
+2024-06-03 12:55:59,677 DEBUG urllib3.connectionpool MainThread : https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2024-06-03 12:55:59,679 DEBUG openai MainThread : message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=468 request_id=req_f908b620a24ae6d8ce2296327ea6cbe9 response_code=200
+2024-06-03 12:55:59,684 ERROR flask_app MainThread : Error committing data: NOT NULL constraint failed: ChatHistory.username
+2024-06-03 12:56:42,020 DEBUG openai MainThread : message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-06-03 12:56:42,021 DEBUG openai MainThread : api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\u3147\\u3139\\u3147\\u3139"}], "temperature": 0.0}' message='Post details'
+2024-06-03 12:56:42,021 DEBUG urllib3.util.retry MainThread : Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-06-03 12:56:42,024 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.openai.com:443
+2024-06-03 12:56:42,919 DEBUG urllib3.connectionpool MainThread : https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2024-06-03 12:56:42,921 DEBUG openai MainThread : message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=628 request_id=req_37925917f399f81c01bcf2e8e4171a21 response_code=200
+2024-06-03 12:56:42,933 DEBUG flask_app MainThread : Data committed successfully!
+2024-06-03 12:57:03,343 DEBUG openai MainThread : message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-06-03 12:57:03,343 DEBUG openai MainThread : api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "fdgdfgfd"}], "temperature": 0.0}' message='Post details'
+2024-06-03 12:57:04,349 DEBUG urllib3.connectionpool MainThread : https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2024-06-03 12:57:04,351 DEBUG openai MainThread : message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=778 request_id=req_b2fcf82e1b9aa93aada4930f7a8a6c9b response_code=200
+2024-06-03 12:57:04,357 DEBUG flask_app MainThread : Data committed successfully!
+2024-06-03 12:57:09,709 DEBUG openai MainThread : message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-06-03 12:57:09,709 DEBUG openai MainThread : api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "dd"}], "temperature": 0.0}' message='Post details'
+2024-06-03 12:57:09,709 DEBUG urllib3.util.retry MainThread : Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-06-03 12:57:09,711 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.openai.com:443
+2024-06-03 12:57:10,699 DEBUG urllib3.connectionpool MainThread : https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2024-06-03 12:57:10,700 DEBUG openai MainThread : message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=607 request_id=req_b1281817ee483fbbb9967cc91bf9bf64 response_code=200
+2024-06-03 12:57:10,715 DEBUG flask_app MainThread : Data committed successfully!
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155\\ud558\\uc138\\uc694"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=611 request_id=req_ecc4357e98b0b2752a86dc57e6013871 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\u314e\\u3147"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=325 request_id=req_45642edc1a2dbf5b2b5456fab264d813 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\u3147\\u3139\\u3134\\u3147"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=842 request_id=req_15a8694589ed7369d60f06f3590030b8 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\u3147\\u3147"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=447 request_id=req_bf070e98f1d26cf606644b1722ac2f23 response_code=200
+ERROR:flask_app:Exception on /query [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ubuntu/chat_stat_question/flask_app.py", line 99, in query
+    name = '%s' % escape(session['username'])
+NameError: name 'escape' is not defined
+ERROR:flask_app:Exception on /query [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ubuntu/chat_stat_question/flask_app.py", line 99, in query
+    name = '%s' % escape(session['username'])
+NameError: name 'escape' is not defined
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "dfd"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=548 request_id=req_977bcdaff690fc9e20e563d362bc50d2 response_code=200
+ERROR:flask_app:Exception on /query [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ubuntu/chat_stat_question/flask_app.py", line 124, in query
+    chat_history_entry = ChatHistory(user_message=message, bot_response=answer, sources=name)
+NameError: name 'name' is not defined
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "fx"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=602 request_id=req_b85091be8f8a397cce7dbb1fbd7b2d4c response_code=200
+ERROR:flask_app:Exception on /query [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ubuntu/chat_stat_question/flask_app.py", line 124, in query
+    chat_history_entry = ChatHistory(user_message=message, bot_response=answer, sources=name)
+NameError: name 'name' is not defined
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uace0\\ub3c4\\ud604"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=3034 request_id=req_22124328afaef2e555d3f8fc821bed12 response_code=200
+ERROR:flask_app:Exception on /query [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ubuntu/chat_stat_question/flask_app.py", line 124, in query
+    chat_history_entry = ChatHistory(user_message=message, bot_response=answer, sources=name)
+NameError: name 'name' is not defined
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "df"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=896 request_id=req_aec884f05a7e3e21638986acc833ec9a response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=717 request_id=req_568ea6f044a993ddafdd0e289d2a5fe7 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=474 request_id=req_5edc3927e57e85d09cb258fb95f0f5e6 response_code=200
+ERROR:flask_app:Exception on /login [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ubuntu/chat_stat_question/flask_app.py", line 76, in login
+    password = int(request.form['password'])
+ValueError: invalid literal for int() with base 10: 'ansjdus3206'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155\\ud558\\uc138\\uc694"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=434 request_id=req_1b0e9505f9affa99e14908c413b4f8e7 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155\\ud558\\uc138\\uc694"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=438 request_id=req_913a6aa3771a39cf48c7beee90b0c90b response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=595 request_id=req_9f7bc75cedc34909360d6a65a0023fbf response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155\\ud558\\uc138\\uc694"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=364 request_id=req_019792e6f6241d71d5b7af757ce5a49f response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155\\ud558\\uc138\\uc694"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=450 request_id=req_fe1131ee50d2e3e1d103c11242653258 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155\\ud558\\uc138\\uc694?"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155\\ud558\\uc138\\uc694"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155\\ud558\\uc138\\uc694 "}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=768 request_id=req_d68c839103eed7be9fe78ca807b9ec63 response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=382 request_id=req_27dc2827d1b00794b451d55ca99c1fe6 response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=502 request_id=req_bd0c90a747d2542a416f5ddbe2da5631 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155\\ud558\\uc138\\uc694"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155\\ud558\\uc138\\uc694"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155\\ud558\\uc138\\uc694"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=372 request_id=req_8def455f48e3c6bcbc0c759ea3216ac8 response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=448 request_id=req_e5fbd7c37fbbe6eb7ed94507d28f6ea3 response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=574 request_id=req_ac37f3f73283b773acd7914f160fb0fc response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155\\ud558\\uc138\\uc694"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc751\\uc560"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=415 request_id=req_947a101265ea925b8a1eb2794d1470ff response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155\\ud558\\uc138\\uc694 "}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=640 request_id=req_dbf46bcd5a3c4eefe49a45fd9fe250f3 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155\\ud558\\uc138\\uc694 "}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=392 request_id=req_d2656ac856ad842b4d8326a1f9bf78d8 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc800\\ub141\\uc5d0 \\ubb50 \\uba39\\uc744\\uae4c?"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155\\ud558\\uc138\\uc694"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=4478 request_id=req_2a065caf6188a15dc493356ab2ab58ba response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": ""}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=649 request_id=req_cbd545400432401dc852ec0577d7a00e response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=296 request_id=req_5dabcec87daecfe16b7263a51a7a182a response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155\\ud558\\uc138\\uc694"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=612 request_id=req_c258bfa765d3e5c74279386cb9233d45 response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2798 request_id=req_92bfb724606b373a5ee1e7afd9aba8cd response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub098 \\uc798\\uc0dd\\uacbc\\uc5b4?"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc138\\ube10\\ud2f4\\uc54c\\uc544?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1707 request_id=req_a1af61a48a6c736b6a6f406851413651 response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2842 request_id=req_7c416294603aa61b24ffc9043b299ba4 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155."}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub108 \\uc0ac\\ub78c\\uc774\\uc57c?"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155!"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=566 request_id=req_95f982ff4177579adaa67d8719abb3ba response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc911\\ud559\\uad50\\uac00 \\uac71\\uc815\\ub3fc"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=371 request_id=req_e80493107cde8287c1b8940081fcb02a response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=706 request_id=req_5bc78c18df893a0fbe5072743006531f response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc624\\ub298 \\ubb50\\ud560\\uae4c?"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ud3b8\\uc548\\ud558\\uac8c \\ubc18\\ub9d0\\ud574\\uc8fc\\uc138\\uc694"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=306 request_id=req_35e984ae00ad5407c3193b14753c8c78 response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2379 request_id=req_da45c4682c98df78160ceae6cd6bf71a response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=688 request_id=req_926cf8a0454a9e83781de09c9a113b09 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub098 \\uc57c\\ucc44 \\uc548\\uba39\\uc5b4 \\uc800\\ub141 \\ucd94\\ucc9c\\uc880"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2325 request_id=req_fd6435a276a369f95202f4a3a75fc0a8 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub108\\ub294 \\uc5ec\\uc790\\uce5c\\uad6c\\uac00 \\uc788\\ub2c8?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=814 request_id=req_a42b9dba222c2f5a636b772a3d9451d7 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub098 \\uba39\\uace0 \\uc2f6\\uc740\\uac8c \\ub108\\ubb34 \\ub9ce\\uc544"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc5fc\\uc18c\\uac00 \\uc808\\ubcbd\\uc744 \\uc624\\ub974\\ub294 \\uc774\\uc720\\uac00 \\ubb50\\uc57c?"}], "temperature": 0.0}' message='Post details'
+ERROR:flask_app:Exception on /login [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ubuntu/chat_stat_question/flask_app.py", line 76, in login
+    password = int(request.form['password'])
+ValueError: invalid literal for int() with base 10: 'anstjdus3206'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1514 request_id=req_0d601cce26be67d7e46e47b3f026e177 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": ""}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub108\\ub294 \\uc774\\uc900\\uc5d0 \\ub300\\ud574 \\uc5b4\\ub5bb\\uac8c \\uc0dd\\uac01\\ud574?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=318 request_id=req_34e0435265bcf92fc70bfe39114a6f4d response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=823 request_id=req_88ad36dbae15f3c9505627e565b8a6a1 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": " \\ubb34\\uc2a8 \\uac8c\\uc784 \\ud560\\uac00?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2360 request_id=req_4b8fa21733c2ccdf946960ac5196cf75 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc800\\ub141 \\uba54\\ub274 \\ucd94\\ucc9c\\ud574\\uc918!"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc544\\uc774\\ube0c \\ucd5c\\uc560 \\ub204\\uad6c\\uc57c?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1783 request_id=req_b8e5252b3dbcc02cff656700f578a4a1 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub108\\uc758 \\uc774\\ub984\\uc740"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=875 request_id=req_f11b2b0a68b3692dd8b3cccfc8895ad2 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": ""}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=404 request_id=req_ad64d383d09900364fc4591e7e340771 response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=349 request_id=req_81aa8c8f7892792af573582fe6ce876b response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": ""}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": ""}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=3324 request_id=req_30d84b8fd7839ad77134fac3b3dd23fc response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ucd5c\\uc11d\\ud658\\uc774 \\ub204\\uad6c\\uc57c?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=396 request_id=req_5cd419e40d7dba40430a694575a62eef response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1619 request_id=req_9846519631f1d8e9849b4cb6d49a5da0 response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1162 request_id=req_0db80a5e7b5e03eed242a36d6c6b25d8 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub098 \\uae30\\ud0c0 \\uc798 \\uce60 \\uc218 \\uc788\\uc73c\\uae4c?"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub108\\uac00 \\uc88b\\uc544\\ud558\\ub294 \\ub178\\ub798\\ub294 \\ubb50\\uc57c?"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": ""}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1699 request_id=req_6cd86139a14c3814f0cbb7967155b973 response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=272 request_id=req_763dd43d89cec95aef49ee2460eb3bea response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1744 request_id=req_282b3a20c145697b76ebd7a772c9ab21 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub85c\\ube14\\ub85d\\uc2a4\\ub294 \\uc5b8\\uc81c \\uac1c\\ubc1c\\uc774 \\ub41c\\uac70\\uc57c?"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub77c\\uba74 \\uba39\\uc744\\uac70\\uc57c"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=896 request_id=req_83f9480a07f4eea922eea0740159529f response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc544\\uc774\\ube0c\\uc5d0 \\ub300\\ud574 \\uc790\\uc138\\ud788 \\uc124\\uba85\\ud574\\uc918"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=3678 request_id=req_3c4b6c2d9a9390a2ebad112be98bdc5c response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub10c \\ube68\\uac04\\uc0c9\\uc774 \\uc88b\\uc544 \\ud30c\\ub780\\uc0c9\\uc774 \\uc88b\\uc544"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1962 request_id=req_bcbbaaef2f925331686f06427aecf231 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub108\\uc758 \\uc774\\ub984\\uc740 \\ubb50\\uc57c?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1489 request_id=req_707a0f5e9a3f5fe1ffcca67fc0c9bf58 response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=801 request_id=req_88e644085566e3a9df1ca59d63730574 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc544\\ub2c8\\uc57c, \\uc5fc\\uc18c\\uac00 \\uc808\\ubcbd\\uc744 \\uc624\\ub974\\ub294 \\uc774\\uc720\\ub294 \\uace0\\uc9d1\\ub54c\\ubb38\\uc774\\uc57c"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1410 request_id=req_783c67ea02fe910b15c6954aa20b41de response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub098 \\uba39\\uace0 \\uc2f6\\uc740 \\uac8c \\ub108\\ubb34 \\ub9ce\\uc544"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uace4\\ub2c8\\ucc0c\\uc640"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ucd5c\\uc11d\\ud658\\uc5d0 \\ub300\\ud574 \\uc5b4\\ub5bb\\uac8c \\uc0dd\\uac01\\ud574?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1796 request_id=req_7c7943ee03c59f17ba7ba16cf7818389 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": ""}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1871 request_id=req_d7e5e4d70c7c274ca32ca7b21f6191aa response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc138\\uc0c1\\uc5d0\\uc11c \\uc81c\\uc77c \\ub611\\ub611\\ud55c \\uc0ac\\ub78c\\uc774 \\ub204\\uad6c\\uc57c"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1505 request_id=req_326fecec3bad62572c0bc509d0f12940 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=310 request_id=req_ebb149d0761f5db02a2d686db3f948d0 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub108\\uac00 \\uc88b\\uc544\\ud558\\ub294 \\ub178\\ub798 \\uc81c\\ubaa9"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=587 request_id=req_0207797c9240c40468e17cda0840cdaa response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=800 request_id=req_cd4421001d917a9db0abba8ad94fab7a response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1800 request_id=req_aba00a4a172e727b263dfba61fb24fb8 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uae40\\ucc44\\uc6d0 \\ub0b4 \\uc5ec\\uce5c"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=843 request_id=req_1f5d20374c78dae7fe437c2b44f4e500 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc11d\\ud658\\uc774\\ub294 \\ub204\\uad6c\\uc57c?"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc624\\ub298 \\uc800\\ub141 \\ubb50 \\uba39\\uc744\\uae4c??"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=991 request_id=req_fe6287ac4e87d5b6107fa3f1a88a21a5 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": ""}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub274\\uc9c4\\uc2a4 \\uc54c\\uc544?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=340 request_id=req_9b53fa8336bdd18ebc9d9c70fe4b91ae response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "what\'s your name?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=514 request_id=req_44bb9da9b1e616bf40e4a2302bdaa034 response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=814 request_id=req_c8e582ede98838d15e405b7f1648f9ca response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub3c5\\ub3c4\\ub294 \\ub204\\uad6c\\ub545"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=3353 request_id=req_5ba00952a5e1ae774a482e54b8b45297 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub77c\\uba74 \\uc548\\uc704\\ud5d8\\ud574"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1386 request_id=req_6fa72ea071beeeb1b094c12bb43a1821 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc544\\ub2c8\\uc57c, \\uc5fc\\uc18c\\uac00 \\uc808\\ubcbd\\uc5d0 \\uc624\\ub974\\ub294 \\uc774\\uc720\\ub294 \\uace0\\uc9d1\\ub54c\\ubb38\\uc774\\uc57c"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub108 \\ubc15\\uc8fc\\uac00\\ub9ac\\uc57c?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2015 request_id=req_f0ba12d3af19750aa6e614738c863b1d response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc81c\\ub85c\\ubca0\\uc774\\uc2a4\\uc6d0\\uc774 \\ub204\\uad6c\\uc57c?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1658 request_id=req_f19d5aeb147674ebea2545c22cd9bb5f response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1308 request_id=req_cb83157ebb87e469a835262f46ec50d8 response_code=200
+ERROR:flask_app:Exception on /login [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ubuntu/chat_stat_question/flask_app.py", line 76, in login
+    password = int(request.form['password'])
+ValueError: invalid literal for int() with base 10: '문서연3206'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1233 request_id=req_22fabc0a40215229ae3e8958fcb09b30 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uacf5\\ubd80\\ud560\\uac74\\ub370 \\uc5b4\\ub5a4\\uacfc\\ubaa9 \\uacf5\\ubd80\\ud560\\uc9c0 \\ucd94\\ucc9c\\ud574\\uc918"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2974 request_id=req_2547c2fb2d71f11b5b447ff7544c6023 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "how are you today"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=754 request_id=req_faad48617cfdd3694c3bb5645b032786 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc54c\\ub824\\uc8fc\\uc5b4\\uc11c \\uace0\\ub9c8\\uc6cc"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub098 \\uba39\\uace0 \\uc2f6\\uc740\\uac8c \\ub108\\ubb34 \\ub9ce\\uc544"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1151 request_id=req_aff49ba0849c7859b6d08ae55798a479 response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1608 request_id=req_1d37e3982e889fd3e39cf4efb813cde1 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub450\\ubc14\\uc774 \\ucd08\\ucf5c\\ub81b\\uc744 \\ub9cc\\ub4dc\\ub294 \\ubc29\\ubc95\\uc744 \\uc54c\\ub824\\uc918"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc800\\ubc88\\uc5d0 \\uc5d0\\ubc84\\ub79c\\ub4dc \\uc8fc\\ub9d0\\uc5d0 \\uac14\\ub294\\ub370 \\uc2dc\\uac04\\uc774 \\ub108\\ubb34 \\ube68\\ub9ac \\uc9c0\\ub098\\uace0 \\uc0ac\\ub78c\\uc774 \\ub9ce\\uc544\\uc11c \\ubcc4\\ub85c \\ubabb\\ud0d4\\uc5b4 \\uc8fc\\ub9d0\\uc5d0 \\uac00\\ub3c4 \\ub9ce\\uc774 \\ud0c0\\ub294 \\ubc95\\uc774 \\ubb50\\uc57c?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1972 request_id=req_d2d140105aa1549a28fc6dae4e9151e1 response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=3445 request_id=req_b21d097e8d7daabb205e51c241a559ca response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc804\\ub450\\ud658\\uc740 \\uc88b\\uc740 \\ub300\\ud1b5\\ub839 \\uc77c\\uae4c?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2236 request_id=req_997784e1945a1cb73900c461768d7310 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc5d1\\uc18c\\uac00 \\ub204\\uad6c\\uc57c"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=584 request_id=req_b86333def1a163786dd78d46927402c8 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uce58\\ud0a8VS\\ud53c\\uc790"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1787 request_id=req_63c6b76744c63348747e3e17455fc156 response_code=200
+ERROR:flask_app:Exception on /login [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ubuntu/chat_stat_question/flask_app.py", line 76, in login
+    password = int(request.form['password'])
+ValueError: invalid literal for int() with base 10: '문서연3206'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc2a4\\ud0a4\\ube44\\ub514 \\ud1a0\\uc77c\\ub81b\\uc740 \\uc5b8\\uc81c \\uacf5\\uac1c \\ub418\\uc5c8\\uc5b4?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=520 request_id=req_c9c9f144c9f5cdbbb00752d09fa801de response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": ""}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2637 request_id=req_529e1e93c3f5988f19a10a43520ea9c3 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ud53d\\uc2a4 \\ucd08\\ucf5c\\ub9bf\\uc744 \\ub9cc\\ub4dc\\ub294 \\ubc29\\ubc95\\uc744 \\uc54c\\ub824\\uc918"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\u3139\\u3147\\u314b\\u314b"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=420 request_id=req_6c59d927b4f9f9e6e3ae4a1a88ed7657 response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2284 request_id=req_66c9da9c97af99839c930ec711e81170 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": ""}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=522 request_id=req_71143efe8e4f154952bf6ec17091b170 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": ""}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=292 request_id=req_752ef8dff0d71c89ba135ee0b5b3c553 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc6b0\\ub07e\\ub07c"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=685 request_id=req_9df9a8b0661cecd81c17852a8920ac87 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub098\\ub294 \\ub610\\ub77c\\uc774\\uc57c"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": ""}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=331 request_id=req_e3810a2a1449963b24dbe23b419b99bf response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1535 request_id=req_b74d70ebc4a1f889788af0b40f538442 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uac78\\uadf8\\ub8f9 \\uc544\\uc774\\ube0c\\uc5d0 \\ub300\\ud574 \\uc124\\uba85\\ud574\\uc918"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1652 request_id=req_f5acbadb802c29a96d774f3c325b7537 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc2ec\\uc2ec\\ud574"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1775 request_id=req_98b50feb0c9f4d0e53d68de4a1414ab3 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ud0a4 \\ud06c\\ub294 \\ubc95 \\uc54c\\ub824\\uc918"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc7ac\\ubbf8\\uc788\\ub294 \\uc601\\ud654 \\ucd94\\ucc9c\\ud574\\uc918!"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2630 request_id=req_ae56f6504e8cd505c3cfa7ec94ca56ee response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=3361 request_id=req_e104c79c4a4bc7e39985649939e697ae response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc2ec\\uc2ec\\ud574\\uc694"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub098\\uc911\\uc5d0 \\uc0ac\\ub78c \\ub9ce\\uc544\\uc9c0 \\uc796\\uc544 \\u3160\\u3160"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=817 request_id=req_764112a2c03fd958afbdcd13b00e42f0 response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2213 request_id=req_64cf826de6235b7f4adb0a71fcb5b555 response_code=200
+ERROR:flask_app:Exception on /login [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask_cors/extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.pyenv/versions/3.8.19/envs/venv/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ubuntu/chat_stat_question/flask_app.py", line 76, in login
+    password = int(request.form['password'])
+ValueError: invalid literal for int() with base 10: '문혜련307'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub0a8\\uce5c \\uc0ac\\uadc0\\uace0 \\uc2f6\\uc5b4"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub0a8\\uc790\\uc57c \\uc5ec\\uc790\\uc57c"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub108 \\uad70\\ud544\\uc774\\uc57c?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1927 request_id=req_9789e80c725e084ef180603412dd352f response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub108 \\ub2e4\\ub9ac3\\uac1c\\uc57c 2\\uac1c\\uc57c?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=515 request_id=req_e9335734c0544fb158c799585bc679cc response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1243 request_id=req_4dbadbfad1ec94140fd282af35ef4569 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub10c \\ub204\\uad6c\\uc57c"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=595 request_id=req_0f0b63767267dcbd5056d73c8df525e5 response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=804 request_id=req_6e9571629d5f6f73e92d2c6e21dce806 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub108 \\uc5ec\\uc790\\uc57c??"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=452 request_id=req_4b20a503b670bba5056a5ee13c52e6fb response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=841 request_id=req_e53d101b174e79df433040d42682a022 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc120\\uc0dd\\ub2d8 \\uc5b4\\ub54c?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1067 request_id=req_c5ce65f602853ed7fb7357f3f0d5219e response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub108 \\uc900\\uc774 \\uc2eb\\uc5b4\\ud574?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=629 request_id=req_765381fa348aef3f1ce809ccad97ff33 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\u314e\\u314e\\u314e"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=780 request_id=req_547ec183b520a90b67a8d72ae8127350 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": ""}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=463 request_id=req_5d65d18a25bc6d4b4b238dee3e56a304 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uadfc\\ub370 \\ub108\\ub294 \\uc5b4\\ub514 \\uc0b4\\uc544 \\ub108 \\uc9d1 \\uc5c6\\uc9c0 \\u314b"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1074 request_id=req_a61dbb2c6435977c29d770bfdfd7d106 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\u3147\\u3149"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=525 request_id=req_bc074e4f23559acf7f8b02da7d700c12 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc774\\uc2b9\\ub9cc"}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": ""}], "temperature": 0.0}' message='Post details'
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": ""}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=262 request_id=req_02faaa1f4d3bd93540bfdd86f15b86f5 response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=490 request_id=req_1efcbdc5f3a1606ffa010ab084aaa892 response_code=200
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1667 request_id=req_4e6c86f7903095da1d14b52391888084 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub2c8\\uac00 \\ubb54\\ub370"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=765 request_id=req_78272e01959fdc578e55fe35f1015f80 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155\\ud558\\uc2ed\\ub2c8\\uae4c "}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=354 request_id=req_b25c25127fc681c093f5afee3b4ef24f response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\ub108 \\ubb50 \\ub3fc?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1277 request_id=req_8a911d8f67ace69f9e2b926ce33e1c34 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uae40\\uc218\\uc601\\uc5d0 \\ub300\\ud574 \\uc5b4\\ub5bb\\uac8c \\uc0dd\\uac01\\ud574?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=978 request_id=req_8fa9ca95a4c6f91130815be0651ee346 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "516\\uad70\\uc0ac\\uc815\\ubcc0\\uc740 \\uc65c \\uc548\\ub9c9\\uc744\\uae4c?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1818 request_id=req_8a9adc7d03527bccd511e954356e085e response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc548\\ub155"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=555 request_id=req_bb9dee383a6aa87e9a3a78d7dc0c35da response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a helpful elementary school teacher."}, {"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."}, {"role": "user", "content": "\\uc6b0\\ub9ac\\ub098\\ub77c\\uc758 \\uae30\\uc628 \\ubcc0\\ud654\\ub294 \\uc5b4\\ub5bb\\uac8c \\ub418\\ub098\\uc694?"}], "temperature": 0.0}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2936 request_id=req_eff97b5af008bea98a86ebc592f33ff5 response_code=200

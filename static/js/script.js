@@ -31,7 +31,7 @@ async function sendQuestion(message) {
 
     questions.push(message)
     try{
-        const response = await fetch('https://jy9307.pythonanywhere.com/query', {
+        const response = await fetch('http://3.38.11.222/query', {
             method : 'POST',
             headers : {
                 'Content-Type' : 'application/json'

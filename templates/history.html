@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat History</title>
+</head>
+<body>
+    <h1>Chat History</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>User Message</th>
+                <th>Bot Response</th>
+                <th>Sources</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for chat in chat_history %}
+            <tr>
+                <td>{{ chat.id }}</td>
+                <td>{{ chat.user_message }}</td>
+                <td>{{ chat.bot_response }}</td>
+                <td>{{ chat.sources }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
+
