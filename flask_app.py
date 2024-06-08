@@ -1,4 +1,3 @@
-
 from flask import Flask, request, render_template, redirect, session, jsonify
 from flask_cors import CORS  # CORS 라이브러리 임포트
 from dotenv import load_dotenv
@@ -65,7 +64,7 @@ def check_tokens(items):
 @app.route('/')
 def index():
     if 'username' in session:
-        return redirect('/query')
+        return redirect('/summary')
     else:
         return redirect('/login')
 
@@ -78,7 +77,7 @@ def login() :
         if username in users and users[username] == password :
             session['username'] = username
 	
-            return redirect('/query') 
+            return redirect('/summary') 
         else:
             return '''
             <script>
@@ -90,8 +89,8 @@ def login() :
         return render_template('login.html')
 
 
-@app.route('/query', methods=['GET', 'POST'])
-def query():
+@app.route('/summary', methods=['GET', 'POST'])
+def summary():
     if 'username' not in session:
         return redirect('/login')
 
@@ -131,10 +130,54 @@ def query():
 
         return {'response' : answer }
 
+    else :
+        return render_template('summary.html')
+    
 
+@app.route('/compare', methods=['GET', 'POST'])
+def compare():
+    if 'username' not in session:
+        return redirect('/login')
+
+    name = session.get('username')
+    if request.method == 'POST':
+        # JSON 데이터 접근
+        data = request.get_json()
+
+        # Checking messages
+        message = data['question'][-1]
+
+        full_message = message
+        context = []
+        if len(context) == 0:
+            context.append({"role": "system", "content": "You are a helpful elementary school teacher."})
+            context.append({"role": "user", "content": "You are going to provide feedback with specific explanation and easy words."})
+            context.append({"role": "user", "content": full_message})
+        else :
+            context.append({"role": "user", "content": full_message})
+
+        response = openai.ChatCompletion.create(
+            model=MODEL,
+            messages=context,
+            temperature=TEMPERATURE
+        )
+
+        answer = response['choices'][0]['message']['content']
+
+        # 데이터베이스에 저장
+        chat_history_entry = ChatHistory(user_message=message, bot_response=answer, sources=name)
+        db.session.add(chat_history_entry)
+        db.session.commit()
+
+
+        #대화 목록에 추가
+        context.append({'role': 'assistant', 'content': answer})
+
+        return {'response' : answer }
 
     else :
-        return render_template('query.html')
+        return render_template('compare.html')
+
     
 @app.route('/logout')
 def logout():
@@ -143,7 +186,7 @@ def logout():
 
 @app.route('/history')
 def get_history():
-    history = ChatHistory.query.all()
+    history = ChatHistory.summary.all()
     return render_template('history.html', chat_history=history)
 
 
@@ -158,4 +201,3 @@ def get_history():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
